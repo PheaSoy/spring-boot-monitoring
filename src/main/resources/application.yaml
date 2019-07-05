@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  security:
+    user:
+      name: monitor
+      password: monitor
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - prometheus,info,health
