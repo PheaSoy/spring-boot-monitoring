@@ -5,6 +5,8 @@ spring:
     user:
       name: monitor
       password: monitor
+  application:
+    name: spring-boot-monitoring
 
 management:
   endpoints:
